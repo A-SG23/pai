@@ -13,7 +13,7 @@ title: This Semester
         </div>
 
            <!--UNCOMMENT AND CHANGE FOR DURING THE SEMESTER-->
-      <h1>Spring '26 Projects</h1>
+      <h1>Fall '26 Projects</h1>
         <p class="text">For member requirements, check out each project's full proposal!</p> 
 
         <!--UNCOMMENT BELOW FOR NEXT SEMESTERS PROJECTS
@@ -24,7 +24,7 @@ title: This Semester
     <button class="slideshow-arrow prev-arrow">❮</button>
     
     <div class="slideshow-wrapper">
-      {% for slide in site.data.projectsSP26 %}
+      {% for slide in site.data.projectsFA26 %}
         <div class="project-slide {% if forloop.first %}active{% endif %}">
           <h3 class="project-title">{{ slide.title }}</h3>
           <p class="project-description"><b>{{ slide["short description"] }}</b></p>
