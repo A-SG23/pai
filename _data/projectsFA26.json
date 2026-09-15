@@ -1,11 +1,74 @@
 [
   {
-    "title": "p-placeholder",
-    "short description": "Placeholder project description",
-    "description": "This is a placeholder project for Fall 2026.",
-    "Leader names": "Placeholder Leader",
+    "title": "p-5CFitnessPal",
+    "short description": "The ultimate fitness, predominately macro tracking, app for the 5C student",
+    "description": "Calories, protein, carbohydrates, fats, and fiber are all crucial information for anyone to hit their health and fitness goals, whether it be weight loss, muscle gain, or athletic performance. For college students with such goals, it is incredibly difficult to track macronutrient intake at dining halls. At home, existing apps like MyFitnessPal or MacroFactor make tracking macronutrients very easy; simply look at the nutrition label of your food. But in the dining halls, we lack such tools. 5CFitnessPal solves this gap. Every day, we scrape the 5C menu websites and display macronutrient information for available meals, so students and faculty can track exactly what they are eating. It is especially valuable now, as Gen Z grows increasingly health- and fitness-oriented. Additionally, college students live in a closed food system for the most part, meaning that they are only consistently eating college foods, so tracking becomes even easier.",
+    "Leader names": "Andrew Zheng PO '29 (CS), Jay Li PO '29 (Math and CS)",
     "Team size": "TBD",
-    "Leader emails": "placeholder@example.com",
+    "Leader emails": "TBD",
+    "link to proposal": "https://pai5c.com/index.html"
+  },
+  {
+    "title": "p-QuantSandbox",
+    "short description": "Learn quant finance by building and competing with your own strategies",
+    "description": "Quantitative finance shapes how trillions of dollars move, yet for most students it stays locked behind heavy math and industry jargon. QuantSandbox is an interactive web platform where students build a portfolio, choose a strategy such as momentum, mean reversion, or factor-based models, and backtest it against real historical market data. The app computes performance and risk metrics including returns, volatility, Sharpe ratio, and maximum drawdown, then presents them through clear, interactive visualizations. A game mode ranks student strategies on a shared leaderboard by risk-adjusted return, turning abstract concepts into something learned by doing.",
+    "Leader names": "Abdullah Ali, Sophomore, CS & Math",
+    "Team size": "TBD",
+    "Leader emails": "abali@g.hmc.edu",
+    "link to proposal": "https://pai5c.com/index.html"
+  },
+  {
+    "title": "p-Callup",
+    "short description": "Predicting Major League Performance from Triple-A, and Correcting for Who Gets Promoted",
+    "description": "During each MLB season, front offices decide which Triple-A players are ready to be called up to play in the major league. This project aims to build a model to answer the question behind that decision: based on a player’s performance in a Triple-A season, how will he perform in the MLB? The intuitive approach is to have the model learn from players who were promoted, as we have both their Triple-A and MLB numbers. However, teams promote players they already believe will succeed using scouting information and intangibles, so training only on promoted players systematically overestimates everyone else. In our data, 638 Triple-A player-seasons have usable MLB statistics and 2,529 do not, so that is 75% of the population. The fix is to use a technique pollsters use: if a certain group rarely answers the phone, you weigh each response more heavily. The missing group is players who never got called up, so the model is then trained again with greater weight on unlikely call-ups. The project runs in three phases: build the naive model, measure how far off it is, then build the corrected version and compare.",
+    "Leader names": "Anish Awasthi · CMC'28 · 650-445-2131 · anishawasthi2@gmail.com",
+    "Team size": "TBD",
+    "Leader emails": "anishawasthi2@gmail.com",
+    "link to proposal": "https://pai5c.com/index.html"
+  },
+  {
+    "title": "p-P-AI",
+    "short description": "P-AI project proposal",
+    "description": "P-AI initiative, describing a general AI-focused project concept developed for the Fall 2026 cycle.",
+    "Leader names": "Aidan Chen (Harvey Mudd, 2029)",
+    "Team size": "TBD",
+    "Leader emails": "TBD",
+    "link to proposal": "https://pai5c.com/index.html"
+  },
+  {
+    "title": "p-Chalk",
+    "short description": "Film breakdown that knows your playbook",
+    "description": "High school football coaches spend hours manually tagging game and practice film before they can begin self-scouting and game planning. Existing platforms organize film, but they generally do not understand each program’s playbook or automatically translate what appears on screen into the coach’s own terminology. Chalk is a web application that connects those two sources: coaches enter or draw their plays, upload film, and receive a play-by-play breakdown mapped to their formations, motions, and route concepts. Low-confidence predictions are flagged for review, and coach corrections become structured feedback for future improvement. The project already has a working full-stack prototype and an experimental computer-vision pipeline. The P-AI team will turn those pieces into a measured end-to-end product. We will use field-keypoint detection and homography estimation to project broadcast or sideline footage onto a standardized 2D field; object detection, multi-object tracking, and appearance clustering to follow players and separate teams; temporal and geometric features to detect snaps, formations, motion, and routes; and similarity-based retrieval or classification to match extracted play representations to a team’s playbook. Our goal is a coach-facing pilot that processes offensive self-scout film, produces interpretable route cards and play labels, reports calibrated confidence, supports human correction, and exports usable breakdown data.",
+    "Leader names": "Aidan Chen (HMC; Computer Science and Mathematics), Connor Wang (Pomona; Computer Science), Kavin Prasanna (CMC; Physics and Economics)",
+    "Team size": "TBD",
+    "Leader emails": "aichen@g.hmc.edu",
+    "link to proposal": "https://pai5c.com/index.html"
+  },
+  {
+    "title": "Delphi",
+    "short description": "Decision intelligence with an AI second brain",
+    "description": "Delphi is an ongoing research initiative exploring how AI can extend human cognition and improve decision-making while preserving human agency. We want to build a system that remembers the context behind a person’s decisions, helps them compare possibilities, and knows when to challenge their assumptions. The central question is whether persistent memory and thoughtful disagreement can make AI a better thinking partner over time. For P-AI, we propose a working web prototype that combines a decision workspace with a second-brain layer. Users will record a question, alternatives, supporting information, and their reasoning. With their permission, Delphi will retrieve relevant notes and past decisions, surface connections, and generate a structured response that identifies tradeoffs, uncertainty, and counterarguments. Users can revisit decisions and record outcomes, creating a feedback loop between what they expected and what happened. The broader vision includes collective intelligence and forecasting: understanding how people and AI can pool information while preserving independent judgment. This semester will focus on the individual decision and memory workflow, with a small shared forecasting experiment as a stretch goal. Sebastian is pursuing faculty mentorship and grant support, with the goal of connecting Cognitive Science and Computer Science perspectives. Funding and departmental participation are not prerequisites for the prototype.",
+    "Leader names": "Sebastian A. Garcia Gutierrez and Emmanuel Ling",
+    "Team size": "TBD",
+    "Leader emails": "TBD",
+    "link to proposal": "https://pai5c.com/index.html"
+  },
+  {
+    "title": "GelDoc? — Agarose Gel Diagnostics & Wet-Lab Protocol Troubleshooter",
+    "short description": "GelDoc? — Agarose Gel Diagnostics & Wet-Lab Protocol Troubleshooter",
+    "description": "In molecular biology, agarose gel electrophoresis is the universal diagnostic test for DNA extraction, PCR amplification, and plasmid cloning. However, gels frequently produce ambiguous artifacts such as faint target bands, primer-dimer smears running at the bottom, or non-specific off-target products. In complex biological systems like the green hydra endosymbiosis (Hydra viridissima and Chlorella) project I did over the summer, researchers must navigate five distinct co-existing genomes (host nuclear/mitochondrial and algal nuclear/mitochondrial/chloroplast DNA). Differentiating a true 18S or 5S target band from non-specific host amplification or primer dimers often takes days of manual ladder measuring and protocol guesswork.",
+    "Leader names": "Isabelle Li",
+    "Team size": "TBD",
+    "Leader emails": "TBD",
+    "link to proposal": "https://pai5c.com/index.html"
+  },
+  {
+    "title": "p-sheetcheck",
+    "short description": "static analysis for financial spreadsheets",
+    "description": "Financial spreadsheets are used to make high-stakes decisions in consulting, finance, and business, but many spreadsheet mistakes are not syntax errors. A formula can be perfectly valid in Excel while still referencing the wrong year, using the wrong operator, breaking a repeated pattern, or replacing a formula with a hardcoded value. These errors are especially difficult to catch in large models with hundreds or thousands of linked cells. p-sheetcheck will treat a spreadsheet more like a computer program than a table of numbers. We will parse formulas into structured representations, build a dependency graph between cells, and infer repeated computational patterns across a workbook. The system will then flag cells whose structure or dependencies differ in suspicious ways from the surrounding model. The main research question is: can we infer enough of a spreadsheet's intended computational structure to detect semantic formula errors without knowing the correct output in advance? The business setting gives us a useful and realistic test case, but the core of the project is computer science: parsing, program analysis, graph algorithms, anomaly detection, and empirical evaluation.",
+    "Leader names": "Maadhavan Gupta(PO '28) Aneesh Raghavan(PO '28)",
+    "Team size": "TBD",
+    "Leader emails": "TBD",
     "link to proposal": "https://pai5c.com/index.html"
   }
 ]
