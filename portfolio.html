@@ -127,6 +127,7 @@ button {
         <option value="">Choose a Semester</option>
         <!--<option value="FA2024">FA 2024</option>
         <option value="SP2024">SP 2024</option>-->
+        <option value="SP2026">SP 2026</option>
         <option value="FA2025">FA 2025</option>
         <option value="SP2025">SP 2025</option>
         <option value="FA2023">FA 2023</option>
@@ -139,6 +140,28 @@ button {
     </div>
 
     <div id="archive-content">
+      <!-- SP 2026 Archive (generated from _data/projectsSP26.json) -->
+      <div class="archive-section" data-semester="SP2026">
+        <h2>SPRING 2026 Projects</h2>
+        <div class="project">
+          <div class="project-slideshow">
+            <button class="slideshow-arrow prev-arrow">❮</button>
+
+            <div class="slideshow-wrapper">
+              {% for slide in site.data.projectsSP26 %}
+                <div class="project-slide {% if forloop.first %}active{% endif %}">
+                  <h3 class="project-title">{{ slide.title }}</h3>
+                  <p class="project-description">{{ slide.description }}</p>
+                  <p class="project-meta"><b>Lead:</b> {{ slide["Leader names"] }}</p>
+                </div>
+              {% endfor %}
+            </div>
+
+            <button class="slideshow-arrow next-arrow">❯</button>
+          </div>
+        </div>
+      </div>
+
  <!-- FA 2025 Archive -->
 <div class="archive-section" data-semester="FA2025">
   <h2>FALL 2025 Projects</h2>
