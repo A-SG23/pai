@@ -6,9 +6,9 @@ title: This Semester
 <div class="projects-container">
     <div class="centered-content">
         <h1>Apply To Be Part of P-ai: </h1>
-        <p class="text">Read through the application information to get an introduction to the requirements and necessary information to apply. Project member applications for SP2026 close on Wednesday, February 4th at 11:59pm.</p>
+        <p class="text">Read through the application information to get an introduction to the requirements and necessary information to apply. Member applications for Fall 2026 close on Friday, September 18 at 11:59pm.</p>
         <div class="button-container">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDaaB4OSpYCUHz3UKCPXimysr3P3MJ7aplL75kEWJnU0Q-YA/viewform" class="button1" target="_blank">Project Member Application</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8ifmrh5Wl82jQFxHMlwFcZkWzfodScsv0-_PNud_2id-6_A/viewform?usp=dialog" class="button1" target="_blank">Project Member Application</a>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScLcu6t9WzbhMIc818lJTuncnTWNkDY54QEgfqWzT_VSRcdwQ/closedform" class="button1" target="_blank">Project Manager Application</a>
         </div>
 
@@ -26,11 +26,10 @@ title: This Semester
     <div class="slideshow-wrapper">
       {% for slide in site.data.projectsFA26 %}
         <div class="project-slide {% if forloop.first %}active{% endif %}">
-          <h3 class="project-title">{{ slide.title }}</h3>
+          <h3 class="project-title"><a href="{{ slide['title link'] }}" target="_blank" rel="noopener" style="color: inherit;">{{ slide.title }}</a></h3>
           <p class="project-description"><b>{{ slide["short description"] }}</b></p>
           <p class="project-description">{{ slide.description }}</p>
           <p class="project-meta"><b>PM:</b> {{ slide["Leader names"] }}</p>
-          <p class="project-meta"><b>Team Size:</b> {{ slide["Team size"] }}</p>
           <div class="button-container">
             <a href="mailto:{{ slide['Leader emails'] | replace: ', ', ',' }}?subject=P-ai%20Project" class="button" target="_blank">
               Contact All
